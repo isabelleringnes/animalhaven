@@ -1,0 +1,66 @@
+ul {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   overflow: hidden;
+}
+
+li {
+   float: left;
+}
+
+nav a:link, nav a:visited {
+   display: block;
+   width: 364px;
+   font-weight: bold;
+   color: #FFFFFF ;
+   background-color: pink;
+   text-align: center;
+   padding: 5px;
+   text-decoration: none;
+   text-transform: uppercase;
+}
+
+nav a:hover, nav a:active {
+   background-color: #CC3399 ;
+}
+body {background-image: url(https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQedrEGSA1cRsiGAtFtINML2wKFZ_GJvPEVTjkOWxFK1NWFd67j); background-attachment: fixed;}
+
+h1 {font-size: 100px; 
+    text-align: center; 
+    font-family: "Tahoma", serif;}
+
+.title {border-top: solid;
+        border-bottom: solid; 
+        border-color: #B8B8B8 ; 
+        border-width: 4px;
+        padding: 5px;
+        margin: 10px;}
+
+li {float:left; font-family: "Lucida Sans Unicode";}
+
+.navbar {display: block;
+width: 300px; padding: 0px;}
+
+.pictag {margin: 0 auto;}
+
+ul {
+   list-style-type: none;
+   margin: 3;
+   padding: 0;
+}
+
+.caption{font-size: 25px;
+        color: white;
+        font-family: "Trebuchet MS";
+        font-style: oblique;
+        border-color: gray;
+        text-align: center;
+        background-color: rgba(255, 153, 102, .5);
+        width: 700px;
+        margin: 0 auto;}
+img {border-style: solid;
+        display: block;
+        border-color: #9999FF ;
+        border-width: 13px;
+        margin-left: auto; margin-right: auto; margin-top: 40px;}
