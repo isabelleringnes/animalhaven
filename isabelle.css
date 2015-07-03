@@ -1,10 +1,11 @@
-ul {
+.list {
    list-style-type: none;
    margin: 0;
    padding: 0;
    overflow: hidden;
 }
 
+.bar { padding: 10px;}
 
 nav a:link, nav a:visited {
    display: block;
@@ -41,12 +42,6 @@ width: 300px; padding: 0px;}
 
 .pictag {margin: 0 auto;}
 
-ul {
-   list-style-type: none;
-   margin: 3;
-   padding: 0;
-}
-
 .caption{font-size: 25px;
         color: white;
         font-family: "Trebuchet MS";
@@ -56,10 +51,11 @@ ul {
         background-color: rgba(255, 153, 102, .5);
         width: 700px;
         margin: 0 auto;}
+
 img {border-style: solid;
         display: block;
         border-color: #9999FF ;
-        border-width: 13px;
+        border-width: 1px;
         margin-left: auto; margin-right: auto; margin-top: 40px;}
 
 .wrapper {
@@ -67,9 +63,27 @@ img {border-style: solid;
   margin: 10px;
   background-color: rgba(192,192,192,0.7);
 
+}
 
+h2 {
+  text-align: center;
 }
 
 .main { text-align: center;
 color: black;
 position: top;}
+
+.bullets {
+  list-style-type: disc;
+    padding: 0px;
+    margin: 0px;
+
+}
+
+footer { 
+background-color: black;
+width: 100%;
+  padding: 30px;
+color: white;
+text-align: center;
+height: 50px;}
