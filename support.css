@@ -1,13 +1,11 @@
-ul {
+.list {
    list-style-type: none;
    margin: 0;
    padding: 0;
    overflow: hidden;
 }
 
-li {
-   float: left;
-}
+.bar { padding: 10px;}
 
 nav a:link, nav a:visited {
    display: block;
@@ -37,18 +35,12 @@ h1 {font-size: 100px;
         padding: 5px;
         margin: 10px;}
 
-li {float:left; font-family: "Lucida Sans Unicode";}
+li {display: inline-block; font-family: "Lucida Sans Unicode";}
 
 .navbar {display: block;
 width: 300px; padding: 0px;}
 
 .pictag {margin: 0 auto;}
-
-ul {
-   list-style-type: none;
-   margin: 3;
-   padding: 0;
-}
 
 .caption{font-size: 25px;
         color: white;
@@ -59,15 +51,39 @@ ul {
         background-color: rgba(255, 153, 102, .5);
         width: 700px;
         margin: 0 auto;}
+
 img {border-style: solid;
         display: block;
         border-color: #9999FF ;
-        border-width: 13px;
+        border-width: 1px;
         margin-left: auto; margin-right: auto; margin-top: 40px;}
-        
-.socialmedia {
-	position: fixed;
-    top: 0;
-    left: 0;
-    width: 30px;
-    border: 3px solid pink;
+
+.wrapper {
+  padding: 10px;
+  margin: 10px;
+  background-color: rgba(192,192,192,0.7);
+
+}
+
+h2 {
+  text-align: center;
+}
+
+.main { text-align: center;
+color: black;
+position: top;}
+
+.bullets {
+  list-style-type: disc;
+    padding: 0px;
+    margin: 0px;
+
+}
+
+footer { 
+background-color: black;
+width: 100%;
+  padding: 30px;
+color: white;
+text-align: center;
+height: 50px;}
