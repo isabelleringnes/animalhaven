@@ -1,19 +1,42 @@
-body {background-image: url(https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQedrEGSA1cRsiGAtFtINML2wKFZ_GJvPEVTjkOWxFK1NWFd67j);
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
 
-background-attachment: fixed;}
+
+nav a:link, nav a:visited {
+  display: block;
+  width: 364px;
+  font-weight: bold;
+  color: #FFFFFF  ;
+  background-color: pink;
+  text-align: center;
+  padding: 5px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+nav a:hover, nav a:active {
+  background-color: #CC3399  ;
+}
+body {background-image: url(https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQedrEGSA1cRsiGAtFtINML2wKFZ_GJvPEVTjkOWxFK1NWFd67j
+
+); background-attachment: fixed;}
 
 h1 {font-size: 100px; 
-    text-align: center; 
-    font-family: "Tahoma", serif;}
+   text-align: center; 
+   font-family: "Tahoma", serif;}
 
 .title {border-top: solid;
-        border-bottom: solid; 
-        border-color: #B8B8B8 ; 
-        border-width: 4px;
-        padding: 5px;
-        margin: 10px;}
+       border-bottom: solid; 
+       border-color: #B8B8B8  ; 
+       border-width: 4px;
+       padding: 5px;
+       margin: 10px;}
 
-li {float:left; font-family: "Lucida Sans Unicode";}
+li {display: inline-block; font-family: "Lucida Sans Unicode";}
 
 .navbar {display: block;
 width: 300px; padding: 0px;}
@@ -21,48 +44,122 @@ width: 300px; padding: 0px;}
 .pictag {margin: 0 auto;}
 
 ul {
-   list-style-type: none;
-   margin: 3;
-   padding: 0;
+  list-style-type: none;
+  margin: 3;
+  padding: 0;
 }
 
 .caption{font-size: 25px;
-        color: white;
-        font-family: "Trebuchet MS";
-        font-style: oblique;
-        border-color: gray;
-        text-align: center;
-        background-color: rgba(255, 153, 102, .5);
-        width: 700px;
-        margin: 0 auto;}
+       color: white;
+       font-family: "Trebuchet MS";
+       font-style: oblique;
+       border-color: gray;
+       text-align: center;
+       background-color: rgba(255, 153, 102, .5);
+       width: 700px;
+       margin: 0 auto;}
 img {border-style: solid;
-        display: block;
-        border-color: #9999FF ;
-        border-width: 13px;
-        margin-left: auto; margin-right: auto; margin-top: 40px;}
-        ul {
-   list-style-type: none;
-   margin: 0;
-   padding: 0;
-   overflow: hidden;
+       display: block;
+       border-color: #9999FF  ;
+       border-width: 13px;
+       margin-left: auto; margin-right: auto; margin-top: 40px;}
+
+.wrapper {
+ padding: 10px;
+ margin: 10px;
+ background-color: rgba(192,192,192,0.7);
+
+
 }
 
-li {
-   float: left;
+.main { text-align: center;
+color: black;
+position: top;}
+img#dog2{
+    width: 256px;
+    height: 205px;
+    margin: 0 auto;
+    margin-left: 85px;
+    padding: 2px;
+    border-style: solid;
+    background-color:rgb(14,81,129);
+    float: left;
+    margin-top: 20px;
 }
-
-nav a:link, nav a:visited {
-   display: block;
-   width: 364px;
-   font-weight: bold;
-   color: #FFFFFF ;
-   background-color: pink;
-   text-align: center;
-   padding: 5px;
-   text-decoration: none;
-   text-transform: uppercase;
-}
-
 nav a:hover, nav a:active {
    background-color: #CC3399 ;
 }
+.wrapper{
+    width: 1000px;
+    margin: 0px auto;
+    overflow: auto;
+
+}
+img#dog3{
+    width: 256px;
+    height: 205px;
+    margin: 0 auto;
+    margin-left: 85px;
+    padding: 2px;
+    border-style: solid;
+    background-color:rgb(14,81,129);
+    float: left;
+    margin-top: 20px;
+}
+img#dog4{
+    width: 256px;
+    height: 205px;
+    margin: 0 auto;
+    margin-left: 85px;
+    padding: 2px;
+    border-style: solid;
+    background-color:rgb(14,81,129);
+    float: left;
+    margin-top: 80px;
+}
+h5{
+  text-align:center;
+  font-style: italic;
+  font-size: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+img#dog5{
+    width: 256px;
+    height: 205px;
+    margin: 0 auto;
+    margin-left: 85px;
+    padding: 2px;
+    border-style: solid;
+    background-color:rgb(14,81,129);
+    float: left;
+    margin-top: 80px;
+}
+h4.caption{
+  display: inline;
+}
+div.piccap{
+  width: 200px;
+}
+img#dog6{
+    width: 256px;
+    height: 205px;
+    margin: 0 auto;
+    margin-left: 85px;
+    padding: 2px;
+    border-style: solid;
+    background-color:rgb(14,81,129);
+    float: left;
+    margin-top: 80px;
+}
+
+img#dog1{
+    width: 256px;
+    height: 205px;
+    margin: 0 auto;
+    margin-left: 85px;
+    padding: 2px;
+    border-style: solid;
+    background-color:rgb(14,81,129);
+    margin-top: 20px;
+    float: left;
